@@ -88,13 +88,13 @@ function nameCheck(name) {
   if (name === "Steven"){
     return "What is up Steven?";
 
-  }else if (name === Bryan){
+  }else if (name === "Bryan"){
     return "Hey Bryan!";
   }else{
-    return "Cool name," + name;
+    return "Cool name, " + name;
   }}
-nameCheck(Steven);
-nameCheck(Joe);
+nameCheck("Steven");
+nameCheck("Joe");
 
 
 
@@ -123,7 +123,17 @@ let mathSum = add(3,4);
 // If the passed in color equals 'black', return 'so trendy'
 // Otherwise, you should return the string 'you need to evaluate your favorite color choice'
 
-
+function faveColorFinder(color) {
+  if (color === 'red'){
+    return 'red is a great color';
+  }else if (color === 'green'){
+    return 'green is a solid favorite color';
+  }else if (color === 'black'){
+    return 'so trendy';
+  }else {
+    return 'you need to evaluate your favorite color choice';
+  }
+}
 
 
 //////////////////PROBLEM 13////////////////////
